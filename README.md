@@ -31,6 +31,10 @@ Download the ZIP file of the code or Git Clone from your terminal. Then, navigat
 Once the install is complete, run `npm start` to launch the game in development mode.
 This will launch the game in the browser with server [http://localhost:3000](http://localhost:3000).
 
+## Launching via Heroku
+
+Click the link to play via Heroku - https://monty-hall-reactjs.herokuapp.com/
+
 ## Credit
 
 By [Dan-Samuel Moleka](https://github.com/ArchKeyTechnique)
