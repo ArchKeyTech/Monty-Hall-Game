@@ -10,16 +10,16 @@ The player is then asked whether they would like to keep their door or change do
 
 ## Screenshots
 
-# UI:
+### UI:
 ![Screenshot from 2021-12-11 17-31-17](https://user-images.githubusercontent.com/50621192/145682290-1e6b1a03-6c11-4409-b809-267b814baa56.png)
 
-# Decision after choosing a door:
+### Decision after choosing a door:
 ![Screenshot from 2021-12-11 17-31-34](https://user-images.githubusercontent.com/50621192/145682303-65cea786-5942-4130-8204-9986abe27d37.png)
 
-# Lose:
+### Lose:
 ![Screenshot from 2021-12-11 17-31-41](https://user-images.githubusercontent.com/50621192/145682313-01b9649d-11d3-4a40-bf96-62694348036f.png)
 
-# Win:
+### Win:
 ![Screenshot from 2021-12-11 17-32-35](https://user-images.githubusercontent.com/50621192/145682326-c986fd33-d8f9-4867-a2bc-10803b2ac951.png)
 
 ## How to install the game
