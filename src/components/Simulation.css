@@ -1,0 +1,126 @@
+/*
+css to style the Simulation and Game component's elements
+*/
+
+
+/*
+styling of elements within the game bloc, title, host image, hidden decision and body
+*/
+.Game {
+    text-align: center;
+    display: flex;
+}
+
+.game-bloc {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    background-color: whitesmoke;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.game-heading {
+    color: orange;
+    border: dotted 8px orange;
+    padding: 5px 5px;
+}
+
+p{
+
+    width: 720px;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.host{
+    width: 150px;
+    height: 150px;
+}
+
+
+/*styling of the doors (closed, reward, donkey etc)
+*/
+
+.doors-bloc {
+    display: flex;
+}
+
+
+.door{
+    height: 400px;
+    width: 200px;
+    margin: 20px;
+}
+
+.door-closed{
+    background-image: url("../images/door-close.jpg");
+    background-size: cover;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+
+.door-closed:hover {
+    border: solid 4px orange;
+}
+.door-closed-blocked{
+    background-image: url("../images/door-close.jpg");
+    background-size: cover;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+
+.door-reward{
+    background-image: url("../images/reward.jpg");
+    background-size: cover;
+    margin: 0px;
+    border: solid 7px green;
+}
+
+.door-donkey{
+    background-image: url("../images/donkey.jpg");
+    background-size: cover;
+    margin: 0px;
+    border: solid 7px red;
+}
+
+/*
+styling of all buttons (keep, switch and reset)
+*/
+.button-div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.keep-switch {
+    margin-left: 20px;
+}
+
+#reset {
+    margin-right: 400px;
+}
+
+button{
+    border: 3px solid orange;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(231, 231, 231);
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    background-color: orange;
+    
+}
+
