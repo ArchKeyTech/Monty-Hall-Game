@@ -7,14 +7,20 @@ css to style the Simulation and Game component's elements
 styling of elements within the game bloc, title, host image, hidden decision and body
 */
 .Game {
-    text-align: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .game-bloc {
-    position: absolute;
-    top: 5%;
-    left: 20%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: whitesmoke;
 }
 
